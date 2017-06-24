@@ -36,7 +36,8 @@ function convert(latitude, longitude)
     	{
           var response = JSON.parse(xhr.responseText);
           var city = response["results"][0]["address_components"][3]["long_name"];
-          document.getElementById("body").style.backgroundImage = 'url(img/' + city + '.jpg)';         
+          document.getElementById("body").style.backgroundImage = 'url(img/' + city + '.jpg)';    
+          document.getElementById("my_location").innerHTML = city;   
         } 
     }
 }
