@@ -6,12 +6,13 @@ body
 	box-sizing: border-box;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-image: url("../img/Tbilisi.jpg");
 }
 
 .mainheader
 {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	background-color: rgba(55, 160, 0, .5);
 	padding-top: 5px;
 }
@@ -19,18 +20,63 @@ body
 .mainheader .mainh1_container h1
 {
     font-weight: lighter;
-	font-size: 30px;
+	font-size: 35px;
 	color: #fff;
 	position: absolute;
     top: -8px;
 	left: 15px;
 }
+.mainheader ul.firstul
+{
+	position: absolute;
+	top: -8px;
+	right: 55px;
+}
+.mainheader img.xazi
+{
+	position: absolute;
+    top: 35px;
+    right: 25px;
+}
+.mainheader ul.secondul
+{
+	position: absolute;
+	top: 25px;
+	right: 45px;
+}
+.mainheader ul li
+{
+	list-style-type: none;
+	width: 110px;
+	height: 30px;
+	padding-left: 18px;
+	display: inline-block;
+}
+.mainheader ul.secondul li
+{
+	width: 30px;
+}
+.mainheader ul li a 
+{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+.mainheader ul li.contact
+{
+	background-image: url("../img/contact.svg");
+	background-repeat: no-repeat;
+	background-position: left 5px;
+}
 .mainsection 
 {
 	margin: 0 auto;
-	width: 70%;
+	width: 90%;
 	height: 300px;
-	background-color: rgba(140, 140, 140, .7);
+	background-color: rgba(140, 140, 140, .6);
 	margin-top: 100px;
 }
 .mainsection .sectionh1_container
@@ -103,4 +149,39 @@ body
     display: inline-block;
     width: 100%;
     height: 100%;
+}
+.social
+{
+	position: fixed;
+
+	height: 300px;
+	width: 60px;
+	right: 0px;
+	display: inline-block;
+	top: 167px;
+
+}
+.social>div
+{
+	height: 100px;
+	width: 100%;
+
+}
+.social .fb
+{
+	background-image: url("../img/fb.png");
+	background-size: 60px 100px;
+	background-repeat: no-repeat;
+}
+.social .instagram
+{
+	background-image: url("../img/inst.jpg");
+	background-size: 60px 100px;
+	background-repeat: no-repeat;
+}
+.social .twitter
+{
+	background-image: url("../img/twitter.png");
+	background-size: 60px 100px;
+	background-repeat: no-repeat;
 }
